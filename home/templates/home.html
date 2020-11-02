@@ -1,8 +1,155 @@
+{% load static %}
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
+<head>
+    <title>fencing home</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- aside bar -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="{% static 'sidebar/css/style.css' %}">
+    <!-- end aside bar -->
+
+    <link rel="icon" type="image/png" href="{% static 'login/images/icons/favicon.ico' %}" />
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="{% static 'equip/css/open-iconic-bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'equip/css/animate.css' %}">
+
+    <link rel="stylesheet" href="{% static 'equip/css/owl.carousel.min.css' %}">
+    <link rel="stylesheet" href="{% static 'equip/css/owl.theme.default.min.css' %}">
+    <link rel="stylesheet" href="{% static 'equip/css/magnific-popup.css' %}">
+
+    <link rel="stylesheet" href="{% static 'equip/css/aos.css' %}">
+
+    <link rel="stylesheet" href="{% static 'equip/css/ionicons.min.css' %}">
+
+    <link rel="stylesheet" href="{% static 'equip/css/bootstrap-datetimepicker.min.css' %}">
+    <link rel="stylesheet" href="{% static 'equip/css/nouislider.css' %}">
+
+
+    <link rel="stylesheet" href="{% static 'equip/css/flaticon.css' %}">
+    <link rel="stylesheet" href="{% static 'equip/css/icomoon.css' %}">
+    <link rel="stylesheet" href="{% static 'equip/css/style.css' %}">
+
+    <style>
+        #one {
+            background-image: url("{% static 'equip/images/ebee.jpg' %}");
+        }
+        
+        #sidebar {
+            background-image: url("{% static 'sidebar/images/bg_1.jpg' %}");
+        }
+    </style>
+
+
+
+</head>
 
 <body>
-    <h1>hello</h1>
+
+    <div class="main-section">
+
+        <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Fencing Home</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span>
+	      </button>
+                <div class="collapse navbar-collapse" id="ftco-nav">
+
+                </div>
+            </div>
+        </nav>
+        <!-- END nav -->
+
+        <section class="hero-wrap" id="one" data-stellar-background-ratio="0.5">
+            <div class="overlay"></div>
+
+
+        </section>
+
+        <!-- aside bar -->
+
+
+        <aside>
+            <nav id="sidebar" class="img">
+                <div class="p-4">
+                    <ul class="list-unstyled components mb-5">
+                        <li class="active">
+                            <a href="#"><span class="fa fa-home mr-3"></span> Home</a>
+                        </li>
+                        <li>
+                            <a href="#"><span class="fa fa-user mr-3"></span> About</a>
+                        </li>
+                        <li>
+                            <a href="#"><span class="fa fa-plane mr-3"></span> Destination</a>
+                        </li>
+                        <li>
+                            <a href="#"><span class="fa fa-sticky-note mr-3"></span> Blog</a>
+                        </li>
+                        <li>
+                            <a href="#"><span class="fa fa-cogs mr-3"></span> Services</a>
+                        </li>
+                        <li>
+                            <a href="#"><span class="fa fa-paper-plane mr-3"></span> Contacts</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <!-- Page Content  -->
+            <div id="content" class="p-4 p-md-5 pt-5">
+
+            </div>
+        </aside>
+
+
+        <!-- end aside bar -->
+
+        <footer class="ftco-section ftco-section-2">
+            <div class="col-md-12 text-center">
+                <p class="mb-0">
+
+                    Created by <a href="#">ahmed abd alomneim</a>
+
+                </p>
+            </div>
+        </footer>
+
+    </div>
+
+    <!-- loader -->
+    <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+    <script src="{% static 'equip/js/jquery.min.js' %}"></script>
+    <script src="{% static 'equip/js/jquery-migrate-3.0.1.min.js' %}"></script>
+    <script src="{% static 'equip/js/popper.min.js' %}"></script>
+    <script src="{% static 'equip/js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'equip/js/jquery.easing.1.3.js' %}"></script>
+    <script src="{% static 'equip/js/jquery.waypoints.min.js' %}"></script>
+    <script src="{% static 'equip/js/jquery.stellar.min.js' %}"></script>
+    <script src="{% static 'equip/js/owl.carousel.min.js' %}"></script>
+    <script src="{% static 'equip/js/jquery.magnific-popup.min.js' %}"></script>
+    <script src="{% static 'equip/js/aos.js' %}"></script>
+
+    <script src="{% static 'equip/js/nouislider.min.js' %}"></script>
+    <script src="{% static 'equip/js/moment-with-locales.min.js' %}"></script>
+    <script src="{% static 'equip/js/bootstrap-datetimepicker.min.js' %}"></script>
+    <script src="{% static 'equip/js/main.js' %}"></script>
+
+    <!-- aside bar -->
+    <script src="{% static 'sidebar/js/jquery.min.js' %}"></script>
+    <script src="{% static 'sidebar/js/popper.js' %}"></script>
+    <script src="{% static 'sidebar/js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'sidebar/js/main.js' %}"></script>
+
 </body>
 
 </html>
