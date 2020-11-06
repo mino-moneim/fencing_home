@@ -38,6 +38,10 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'home',
+    'epee',
+    'foil',
+    'sword',
+    'clothes',
 ]
 
 MIDDLEWARE = [
